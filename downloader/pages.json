@@ -5,23 +5,28 @@
 			"pages": [
 				{
 					"title": "Getting Started",
-					"url": "/docs/getting-started.html"
+					"url": "/docs/getting-started.html",
+					"filename": "_docs_getting_started_html"
 				},
 				{
 					"title": "Add React to a Website",
-					"url": "/docs/add-react-to-a-website.html"
+					"url": "/docs/add-react-to-a-website.html",
+					"filename": "_docs_add_react_to_a_website_html"
 				},
 				{
 					"title": "Create a New React App",
-					"url": "/docs/create-a-new-react-app.html"
+					"url": "/docs/create-a-new-react-app.html",
+					"filename": "_docs_create_a_new_react_app_html"
 				},
 				{
 					"title": "CDN Links",
-					"url": "/docs/cdn-links.html"
+					"url": "/docs/cdn-links.html",
+					"filename": "_docs_cdn_links_html"
 				},
 				{
 					"title": "Release Channels",
-					"url": "/docs/release-channels.html"
+					"url": "/docs/release-channels.html",
+					"filename": "_docs_release_channels_html"
 				}
 			]
 		},
@@ -30,51 +35,63 @@
 			"pages": [
 				{
 					"title": "1. Hello World",
-					"url": "/docs/hello-world.html"
+					"url": "/docs/hello-world.html",
+					"filename": "_docs_hello_world_html"
 				},
 				{
 					"title": "2. Introducing JSX",
-					"url": "/docs/introducing-jsx.html"
+					"url": "/docs/introducing-jsx.html",
+					"filename": "_docs_introducing_jsx_html"
 				},
 				{
 					"title": "3. Rendering Elements",
-					"url": "/docs/rendering-elements.html"
+					"url": "/docs/rendering-elements.html",
+					"filename": "_docs_rendering_elements_html"
 				},
 				{
 					"title": "4. Components and Props",
-					"url": "/docs/components-and-props.html"
+					"url": "/docs/components-and-props.html",
+					"filename": "_docs_components_and_props_html"
 				},
 				{
 					"title": "5. State and Lifecycle",
-					"url": "/docs/state-and-lifecycle.html"
+					"url": "/docs/state-and-lifecycle.html",
+					"filename": "_docs_state_and_lifecycle_html"
 				},
 				{
 					"title": "6. Handling Events",
-					"url": "/docs/handling-events.html"
+					"url": "/docs/handling-events.html",
+					"filename": "_docs_handling_events_html"
 				},
 				{
 					"title": "7. Conditional Rendering",
-					"url": "/docs/conditional-rendering.html"
+					"url": "/docs/conditional-rendering.html",
+					"filename": "_docs_conditional_rendering_html"
 				},
 				{
 					"title": "8. Lists and Keys",
-					"url": "/docs/lists-and-keys.html"
+					"url": "/docs/lists-and-keys.html",
+					"filename": "_docs_lists_and_keys_html"
 				},
 				{
 					"title": "9. Forms",
-					"url": "/docs/forms.html"
+					"url": "/docs/forms.html",
+					"filename": "_docs_forms_html"
 				},
 				{
 					"title": "10. Lifting State Up",
-					"url": "/docs/lifting-state-up.html"
+					"url": "/docs/lifting-state-up.html",
+					"filename": "_docs_lifting_state_up_html"
 				},
 				{
 					"title": "11. Composition vs Inheritance",
-					"url": "/docs/composition-vs-inheritance.html"
+					"url": "/docs/composition-vs-inheritance.html",
+					"filename": "_docs_composition_vs_inheritance_html"
 				},
 				{
 					"title": "12. Thinking In React",
-					"url": "/docs/thinking-in-react.html"
+					"url": "/docs/thinking-in-react.html",
+					"filename": "_docs_thinking_in_react_html"
 				}
 			]
 		},
@@ -83,91 +100,113 @@
 			"pages": [
 				{
 					"title": "Accessibility",
-					"url": "/docs/accessibility.html"
+					"url": "/docs/accessibility.html",
+					"filename": "_docs_accessibility_html"
 				},
 				{
 					"title": "Code-Splitting",
-					"url": "/docs/code-splitting.html"
+					"url": "/docs/code-splitting.html",
+					"filename": "_docs_code_splitting_html"
 				},
 				{
 					"title": "Context",
-					"url": "/docs/context.html"
+					"url": "/docs/context.html",
+					"filename": "_docs_context_html"
 				},
 				{
 					"title": "Error Boundaries",
-					"url": "/docs/error-boundaries.html"
+					"url": "/docs/error-boundaries.html",
+					"filename": "_docs_error_boundaries_html"
 				},
 				{
 					"title": "Forwarding Refs",
-					"url": "/docs/forwarding-refs.html"
+					"url": "/docs/forwarding-refs.html",
+					"filename": "_docs_forwarding_refs_html"
 				},
 				{
 					"title": "Fragments",
-					"url": "/docs/fragments.html"
+					"url": "/docs/fragments.html",
+					"filename": "_docs_fragments_html"
 				},
 				{
 					"title": "Higher-Order Components",
-					"url": "/docs/higher-order-components.html"
+					"url": "/docs/higher-order-components.html",
+					"filename": "_docs_higher_order_components_html"
 				},
 				{
 					"title": "Integrating with Other Libraries",
-					"url": "/docs/integrating-with-other-libraries.html"
+					"url": "/docs/integrating-with-other-libraries.html",
+					"filename": "_docs_integrating_with_other_libraries_html"
 				},
 				{
 					"title": "JSX In Depth",
-					"url": "/docs/jsx-in-depth.html"
+					"url": "/docs/jsx-in-depth.html",
+					"filename": "_docs_jsx_in_depth_html"
 				},
 				{
 					"title": "Optimizing Performance",
-					"url": "/docs/optimizing-performance.html"
+					"url": "/docs/optimizing-performance.html",
+					"filename": "_docs_optimizing_performance_html"
 				},
 				{
 					"title": "Portals",
-					"url": "/docs/portals.html"
+					"url": "/docs/portals.html",
+					"filename": "_docs_portals_html"
 				},
 				{
 					"title": "Profiler",
-					"url": "/docs/profiler.html"
+					"url": "/docs/profiler.html",
+					"filename": "_docs_profiler_html"
 				},
 				{
 					"title": "React Without ES6",
-					"url": "/docs/react-without-es6.html"
+					"url": "/docs/react-without-es6.html",
+					"filename": "_docs_react_without_es6_html"
 				},
 				{
 					"title": "React Without JSX",
-					"url": "/docs/react-without-jsx.html"
+					"url": "/docs/react-without-jsx.html",
+					"filename": "_docs_react_without_jsx_html"
 				},
 				{
 					"title": "Reconciliation",
-					"url": "/docs/reconciliation.html"
+					"url": "/docs/reconciliation.html",
+					"filename": "_docs_reconciliation_html"
 				},
 				{
 					"title": "Refs and the DOM",
-					"url": "/docs/refs-and-the-dom.html"
+					"url": "/docs/refs-and-the-dom.html",
+					"filename": "_docs_refs_and_the_dom_html"
 				},
 				{
 					"title": "Render Props",
-					"url": "/docs/render-props.html"
+					"url": "/docs/render-props.html",
+					"filename": "_docs_render_props_html"
 				},
 				{
 					"title": "Static Type Checking",
-					"url": "/docs/static-type-checking.html"
+					"url": "/docs/static-type-checking.html",
+					"filename": "_docs_static_type_checking_html"
 				},
 				{
 					"title": "Strict Mode",
-					"url": "/docs/strict-mode.html"
+					"url": "/docs/strict-mode.html",
+					"filename": "_docs_strict_mode_html"
 				},
 				{
 					"title": "Typechecking With PropTypes",
-					"url": "/docs/typechecking-with-proptypes.html"
+					"url": "/docs/typechecking-with-proptypes.html",
+					"filename": "_docs_typechecking_with_proptypes_html"
 				},
 				{
 					"title": "Uncontrolled Components",
-					"url": "/docs/uncontrolled-components.html"
+					"url": "/docs/uncontrolled-components.html",
+					"filename": "_docs_uncontrolled_components_html"
 				},
 				{
 					"title": "Web Components",
-					"url": "/docs/web-components.html"
+					"url": "/docs/web-components.html",
+					"filename": "_docs_web_components_html"
 				}
 			]
 		},
@@ -176,47 +215,58 @@
 			"pages": [
 				{
 					"title": "React",
-					"url": "/docs/react-api.html"
+					"url": "/docs/react-api.html",
+					"filename": "_docs_react_api_html"
 				},
 				{
 					"title": "React.Component",
-					"url": "/docs/react-component.html"
+					"url": "/docs/react-component.html",
+					"filename": "_docs_react_component_html"
 				},
 				{
 					"title": "ReactDOM",
-					"url": "/docs/react-dom.html"
+					"url": "/docs/react-dom.html",
+					"filename": "_docs_react_dom_html"
 				},
 				{
 					"title": "ReactDOMClient",
-					"url": "/docs/react-dom-client.html"
+					"url": "/docs/react-dom-client.html",
+					"filename": "_docs_react_dom_client_html"
 				},
 				{
 					"title": "ReactDOMServer",
-					"url": "/docs/react-dom-server.html"
+					"url": "/docs/react-dom-server.html",
+					"filename": "_docs_react_dom_server_html"
 				},
 				{
 					"title": "DOM Elements",
-					"url": "/docs/dom-elements.html"
+					"url": "/docs/dom-elements.html",
+					"filename": "_docs_dom_elements_html"
 				},
 				{
 					"title": "SyntheticEvent",
-					"url": "/docs/events.html"
+					"url": "/docs/events.html",
+					"filename": "_docs_events_html"
 				},
 				{
 					"title": "Test Utilities",
-					"url": "/docs/test-utils.html"
+					"url": "/docs/test-utils.html",
+					"filename": "_docs_test_utils_html"
 				},
 				{
 					"title": "Test Renderer",
-					"url": "/docs/test-renderer.html"
+					"url": "/docs/test-renderer.html",
+					"filename": "_docs_test_renderer_html"
 				},
 				{
 					"title": "JS Environment Requirements",
-					"url": "/docs/javascript-environment-requirements.html"
+					"url": "/docs/javascript-environment-requirements.html",
+					"filename": "_docs_javascript_environment_requirements_html"
 				},
 				{
 					"title": "Glossary",
-					"url": "/docs/glossary.html"
+					"url": "/docs/glossary.html",
+					"filename": "_docs_glossary_html"
 				}
 			]
 		},
@@ -225,35 +275,43 @@
 			"pages": [
 				{
 					"title": "1. Introducing Hooks",
-					"url": "/docs/hooks-intro.html"
+					"url": "/docs/hooks-intro.html",
+					"filename": "_docs_hooks_intro_html"
 				},
 				{
 					"title": "2. Hooks at a Glance",
-					"url": "/docs/hooks-overview.html"
+					"url": "/docs/hooks-overview.html",
+					"filename": "_docs_hooks_overview_html"
 				},
 				{
 					"title": "3. Using the State Hook",
-					"url": "/docs/hooks-state.html"
+					"url": "/docs/hooks-state.html",
+					"filename": "_docs_hooks_state_html"
 				},
 				{
 					"title": "4. Using the Effect Hook",
-					"url": "/docs/hooks-effect.html"
+					"url": "/docs/hooks-effect.html",
+					"filename": "_docs_hooks_effect_html"
 				},
 				{
 					"title": "5. Rules of Hooks",
-					"url": "/docs/hooks-rules.html"
+					"url": "/docs/hooks-rules.html",
+					"filename": "_docs_hooks_rules_html"
 				},
 				{
 					"title": "6. Building Your Own Hooks",
-					"url": "/docs/hooks-custom.html"
+					"url": "/docs/hooks-custom.html",
+					"filename": "_docs_hooks_custom_html"
 				},
 				{
 					"title": "7. Hooks API Reference",
-					"url": "/docs/hooks-reference.html"
+					"url": "/docs/hooks-reference.html",
+					"filename": "_docs_hooks_reference_html"
 				},
 				{
 					"title": "8. Hooks FAQ",
-					"url": "/docs/hooks-faq.html"
+					"url": "/docs/hooks-faq.html",
+					"filename": "_docs_hooks_faq_html"
 				}
 			]
 		},
@@ -262,15 +320,18 @@
 			"pages": [
 				{
 					"title": "Testing Overview",
-					"url": "/docs/testing.html"
+					"url": "/docs/testing.html",
+					"filename": "_docs_testing_html"
 				},
 				{
 					"title": "Testing Recipes",
-					"url": "/docs/testing-recipes.html"
+					"url": "/docs/testing-recipes.html",
+					"filename": "_docs_testing_recipes_html"
 				},
 				{
 					"title": "Testing Environments",
-					"url": "/docs/testing-environments.html"
+					"url": "/docs/testing-environments.html",
+					"filename": "_docs_testing_environments_html"
 				}
 			]
 		},
@@ -279,19 +340,23 @@
 			"pages": [
 				{
 					"title": "How to Contribute",
-					"url": "/docs/how-to-contribute.html"
+					"url": "/docs/how-to-contribute.html",
+					"filename": "_docs_how_to_contribute_html"
 				},
 				{
 					"title": "Codebase Overview",
-					"url": "/docs/codebase-overview.html"
+					"url": "/docs/codebase-overview.html",
+					"filename": "_docs_codebase_overview_html"
 				},
 				{
 					"title": "Implementation Notes",
-					"url": "/docs/implementation-notes.html"
+					"url": "/docs/implementation-notes.html",
+					"filename": "_docs_implementation_notes_html"
 				},
 				{
 					"title": "Design Principles",
-					"url": "/docs/design-principles.html"
+					"url": "/docs/design-principles.html",
+					"filename": "_docs_design_principles_html"
 				}
 			]
 		},
@@ -300,35 +365,43 @@
 			"pages": [
 				{
 					"title": "AJAX and APIs",
-					"url": "/docs/faq-ajax.html"
+					"url": "/docs/faq-ajax.html",
+					"filename": "_docs_faq_ajax_html"
 				},
 				{
 					"title": "Babel, JSX, and Build Steps",
-					"url": "/docs/faq-build.html"
+					"url": "/docs/faq-build.html",
+					"filename": "_docs_faq_build_html"
 				},
 				{
 					"title": "Passing Functions to Components",
-					"url": "/docs/faq-functions.html"
+					"url": "/docs/faq-functions.html",
+					"filename": "_docs_faq_functions_html"
 				},
 				{
 					"title": "Component State",
-					"url": "/docs/faq-state.html"
+					"url": "/docs/faq-state.html",
+					"filename": "_docs_faq_state_html"
 				},
 				{
 					"title": "Styling and CSS",
-					"url": "/docs/faq-styling.html"
+					"url": "/docs/faq-styling.html",
+					"filename": "_docs_faq_styling_html"
 				},
 				{
 					"title": "File Structure",
-					"url": "/docs/faq-structure.html"
+					"url": "/docs/faq-structure.html",
+					"filename": "_docs_faq_structure_html"
 				},
 				{
 					"title": "Versioning Policy",
-					"url": "/docs/faq-versioning.html"
+					"url": "/docs/faq-versioning.html",
+					"filename": "_docs_faq_versioning_html"
 				},
 				{
 					"title": "Virtual DOM and Internals",
-					"url": "/docs/faq-internals.html"
+					"url": "/docs/faq-internals.html",
+					"filename": "_docs_faq_internals_html"
 				}
 			]
 		}

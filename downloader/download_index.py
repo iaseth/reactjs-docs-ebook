@@ -4,6 +4,13 @@ import requests
 import bs4
 
 
+def sanitize_string(s):
+	s = list(s)
+	for idx, c in enumerate(s):
+		if not c.isalnum():
+			s[idx] = '_'
+	return ''.join(s)
+
 def main():
 	getting_started_url = "https://reactjs.org/docs/getting-started.html"
 	response = requests.get(getting_started_url)
@@ -23,6 +30,7 @@ def main():
 			page = {}
 			page['title'] = a.text.strip()
 			page['url'] = a['href'].strip()
+			page['filename'] = sanitize_string(a['href'].strip())
 			pages.append(page)
 
 		print(f"\t-- added {len(pages)} pages.")
