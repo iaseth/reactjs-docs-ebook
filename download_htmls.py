@@ -54,7 +54,7 @@ def main():
 		pages = section['pages']
 		for pidx, page in enumerate(pages):
 			page_url = "https://reactjs.org" + page['url']
-			html_path = f"html/{page['filename']}.html"
+			html_path = f"downloaded/html/{page['filename']}.html"
 			print(f"\t---- [{pidx+1}/{len(pages)}] New page: '{page['title']}':")
 
 			if os.path.isfile(html_path):
