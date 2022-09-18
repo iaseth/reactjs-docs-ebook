@@ -1,0 +1,336 @@
+{
+	"sections": [
+		{
+			"title": "Installation",
+			"pages": [
+				{
+					"title": "Getting Started",
+					"url": "/docs/getting-started.html"
+				},
+				{
+					"title": "Add React to a Website",
+					"url": "/docs/add-react-to-a-website.html"
+				},
+				{
+					"title": "Create a New React App",
+					"url": "/docs/create-a-new-react-app.html"
+				},
+				{
+					"title": "CDN Links",
+					"url": "/docs/cdn-links.html"
+				},
+				{
+					"title": "Release Channels",
+					"url": "/docs/release-channels.html"
+				}
+			]
+		},
+		{
+			"title": "Main Concepts",
+			"pages": [
+				{
+					"title": "1. Hello World",
+					"url": "/docs/hello-world.html"
+				},
+				{
+					"title": "2. Introducing JSX",
+					"url": "/docs/introducing-jsx.html"
+				},
+				{
+					"title": "3. Rendering Elements",
+					"url": "/docs/rendering-elements.html"
+				},
+				{
+					"title": "4. Components and Props",
+					"url": "/docs/components-and-props.html"
+				},
+				{
+					"title": "5. State and Lifecycle",
+					"url": "/docs/state-and-lifecycle.html"
+				},
+				{
+					"title": "6. Handling Events",
+					"url": "/docs/handling-events.html"
+				},
+				{
+					"title": "7. Conditional Rendering",
+					"url": "/docs/conditional-rendering.html"
+				},
+				{
+					"title": "8. Lists and Keys",
+					"url": "/docs/lists-and-keys.html"
+				},
+				{
+					"title": "9. Forms",
+					"url": "/docs/forms.html"
+				},
+				{
+					"title": "10. Lifting State Up",
+					"url": "/docs/lifting-state-up.html"
+				},
+				{
+					"title": "11. Composition vs Inheritance",
+					"url": "/docs/composition-vs-inheritance.html"
+				},
+				{
+					"title": "12. Thinking In React",
+					"url": "/docs/thinking-in-react.html"
+				}
+			]
+		},
+		{
+			"title": "Advanced Guides",
+			"pages": [
+				{
+					"title": "Accessibility",
+					"url": "/docs/accessibility.html"
+				},
+				{
+					"title": "Code-Splitting",
+					"url": "/docs/code-splitting.html"
+				},
+				{
+					"title": "Context",
+					"url": "/docs/context.html"
+				},
+				{
+					"title": "Error Boundaries",
+					"url": "/docs/error-boundaries.html"
+				},
+				{
+					"title": "Forwarding Refs",
+					"url": "/docs/forwarding-refs.html"
+				},
+				{
+					"title": "Fragments",
+					"url": "/docs/fragments.html"
+				},
+				{
+					"title": "Higher-Order Components",
+					"url": "/docs/higher-order-components.html"
+				},
+				{
+					"title": "Integrating with Other Libraries",
+					"url": "/docs/integrating-with-other-libraries.html"
+				},
+				{
+					"title": "JSX In Depth",
+					"url": "/docs/jsx-in-depth.html"
+				},
+				{
+					"title": "Optimizing Performance",
+					"url": "/docs/optimizing-performance.html"
+				},
+				{
+					"title": "Portals",
+					"url": "/docs/portals.html"
+				},
+				{
+					"title": "Profiler",
+					"url": "/docs/profiler.html"
+				},
+				{
+					"title": "React Without ES6",
+					"url": "/docs/react-without-es6.html"
+				},
+				{
+					"title": "React Without JSX",
+					"url": "/docs/react-without-jsx.html"
+				},
+				{
+					"title": "Reconciliation",
+					"url": "/docs/reconciliation.html"
+				},
+				{
+					"title": "Refs and the DOM",
+					"url": "/docs/refs-and-the-dom.html"
+				},
+				{
+					"title": "Render Props",
+					"url": "/docs/render-props.html"
+				},
+				{
+					"title": "Static Type Checking",
+					"url": "/docs/static-type-checking.html"
+				},
+				{
+					"title": "Strict Mode",
+					"url": "/docs/strict-mode.html"
+				},
+				{
+					"title": "Typechecking With PropTypes",
+					"url": "/docs/typechecking-with-proptypes.html"
+				},
+				{
+					"title": "Uncontrolled Components",
+					"url": "/docs/uncontrolled-components.html"
+				},
+				{
+					"title": "Web Components",
+					"url": "/docs/web-components.html"
+				}
+			]
+		},
+		{
+			"title": "API Reference",
+			"pages": [
+				{
+					"title": "React",
+					"url": "/docs/react-api.html"
+				},
+				{
+					"title": "React.Component",
+					"url": "/docs/react-component.html"
+				},
+				{
+					"title": "ReactDOM",
+					"url": "/docs/react-dom.html"
+				},
+				{
+					"title": "ReactDOMClient",
+					"url": "/docs/react-dom-client.html"
+				},
+				{
+					"title": "ReactDOMServer",
+					"url": "/docs/react-dom-server.html"
+				},
+				{
+					"title": "DOM Elements",
+					"url": "/docs/dom-elements.html"
+				},
+				{
+					"title": "SyntheticEvent",
+					"url": "/docs/events.html"
+				},
+				{
+					"title": "Test Utilities",
+					"url": "/docs/test-utils.html"
+				},
+				{
+					"title": "Test Renderer",
+					"url": "/docs/test-renderer.html"
+				},
+				{
+					"title": "JS Environment Requirements",
+					"url": "/docs/javascript-environment-requirements.html"
+				},
+				{
+					"title": "Glossary",
+					"url": "/docs/glossary.html"
+				}
+			]
+		},
+		{
+			"title": "Hooks",
+			"pages": [
+				{
+					"title": "1. Introducing Hooks",
+					"url": "/docs/hooks-intro.html"
+				},
+				{
+					"title": "2. Hooks at a Glance",
+					"url": "/docs/hooks-overview.html"
+				},
+				{
+					"title": "3. Using the State Hook",
+					"url": "/docs/hooks-state.html"
+				},
+				{
+					"title": "4. Using the Effect Hook",
+					"url": "/docs/hooks-effect.html"
+				},
+				{
+					"title": "5. Rules of Hooks",
+					"url": "/docs/hooks-rules.html"
+				},
+				{
+					"title": "6. Building Your Own Hooks",
+					"url": "/docs/hooks-custom.html"
+				},
+				{
+					"title": "7. Hooks API Reference",
+					"url": "/docs/hooks-reference.html"
+				},
+				{
+					"title": "8. Hooks FAQ",
+					"url": "/docs/hooks-faq.html"
+				}
+			]
+		},
+		{
+			"title": "Testing",
+			"pages": [
+				{
+					"title": "Testing Overview",
+					"url": "/docs/testing.html"
+				},
+				{
+					"title": "Testing Recipes",
+					"url": "/docs/testing-recipes.html"
+				},
+				{
+					"title": "Testing Environments",
+					"url": "/docs/testing-environments.html"
+				}
+			]
+		},
+		{
+			"title": "Contributing",
+			"pages": [
+				{
+					"title": "How to Contribute",
+					"url": "/docs/how-to-contribute.html"
+				},
+				{
+					"title": "Codebase Overview",
+					"url": "/docs/codebase-overview.html"
+				},
+				{
+					"title": "Implementation Notes",
+					"url": "/docs/implementation-notes.html"
+				},
+				{
+					"title": "Design Principles",
+					"url": "/docs/design-principles.html"
+				}
+			]
+		},
+		{
+			"title": "FAQ",
+			"pages": [
+				{
+					"title": "AJAX and APIs",
+					"url": "/docs/faq-ajax.html"
+				},
+				{
+					"title": "Babel, JSX, and Build Steps",
+					"url": "/docs/faq-build.html"
+				},
+				{
+					"title": "Passing Functions to Components",
+					"url": "/docs/faq-functions.html"
+				},
+				{
+					"title": "Component State",
+					"url": "/docs/faq-state.html"
+				},
+				{
+					"title": "Styling and CSS",
+					"url": "/docs/faq-styling.html"
+				},
+				{
+					"title": "File Structure",
+					"url": "/docs/faq-structure.html"
+				},
+				{
+					"title": "Versioning Policy",
+					"url": "/docs/faq-versioning.html"
+				},
+				{
+					"title": "Virtual DOM and Internals",
+					"url": "/docs/faq-internals.html"
+				}
+			]
+		}
+	]
+}
