@@ -11,7 +11,7 @@ class ReactOrgSection(HtmlBaseclass):
 		for pj in self.jo['pages']:
 			page = ReactOrgPage(self, pj)
 			self.pages.append(page)
-		# self.template = self.book.topic_page_template.template
+		self.template = self.app.section_page_template.template
 
 	def getIdref(self):
 		return f"x_section_{self.index}"

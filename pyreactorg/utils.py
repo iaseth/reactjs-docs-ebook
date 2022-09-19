@@ -20,7 +20,7 @@ class HtmlBaseclass:
 		return "text/" + self.getHtmlFilename()
 
 	def getHtmlPath(self):
-		return self.book.get_oebps_filepath(self.getLocalHtmlFilepath())
+		return self.app.get_oebps_filepath(self.getLocalHtmlFilepath())
 
 	def saveHtml(self):
 		html_path = self.getHtmlPath()

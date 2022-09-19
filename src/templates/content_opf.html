@@ -31,7 +31,7 @@
 		<itemref idref="x_inline_toc" linear="yes" />
 		{% for section in book.sections %}
 		<itemref idref="{{ section.getIdref() }}" linear="yes" />
-			{% for page in section.posts %}<itemref idref="{{ page.getIdref() }}" linear="yes" />{% endfor %}
+			{% for page in section.pages %}<itemref idref="{{ page.getIdref() }}" linear="yes" />{% endfor %}
 		{% endfor %}
 
 	</spine>

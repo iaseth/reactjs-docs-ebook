@@ -26,7 +26,7 @@
 		<content src="{{ section.getLocalHtmlFilepath() }}"/>
 		{% for page in section.pages %}
 		<navPoint id="{{ page.getIdref() }}" playOrder="{{ counter.count() }}">
-			<navLabel><text>{{ page.getPaddedIndex() }}. {{ page.title }}</text></navLabel>
+			<navLabel><text>{{ page.title }}</text></navLabel>
 			<content src="{{ page.getLocalHtmlFilepath() }}"/>
 		</navPoint>
 		{% endfor %}

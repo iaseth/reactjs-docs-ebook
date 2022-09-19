@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+	<title>{{ page.title }}</title>
+</head>
+<body>
+	<h4><a href="{{ page.pages[0].getHtmlFilename() }}">First article</a> | {% if page.previous %}<a href="{{ page.previous.getHtmlFilename() }}">Previous</a>{% endif %}{% if page.previous and page.next %}<span> | </span>{% endif %}{% if page.next %}<a href="{{ page.next.getHtmlFilename() }}">Next</a>{% endif %} | <a href="{{ page.pages[-1].getHtmlFilename() }}">Last article</a></h4>
+	<h1 class="title">{{ page.title }}</h1>
+	<h4><a href="x_inline_toc.html">Table of contents</a></h4>
+	<div>
+		<ul>
+			{% for page in page.pages %}
+			<ol>
+				<h4><a href="{{ page.getHtmlFilename() }}">{{ page.title }}</a></h4>
+			</ol>
+			{% endfor %}
+		</ul>
+	</div>
+	<h4><a href="x_inline_toc.html">Table of contents</a></h4>
+</body>
+</html>
