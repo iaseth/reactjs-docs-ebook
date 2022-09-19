@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+	<title>Table of contents</title>
+</head>
+<body>
+	<h1>Table of contents</h1>
+	<div>
+		<ul>
+
+			{% for section in book.sections %}
+			<li>
+				<p>Section: <b><a href="{{ section.getHtmlFilename() }}">{{ section.title }}</a></b> ({{ section.length() }} pages)</p>
+				<ol>
+					{% for page in section.pages %}
+					<li><b><a href="{{ page.getHtmlFilename() }}">{{ page.title }}</a></b></li>
+					{% endfor %}
+				</ol>
+			</li>
+			{% endfor %}
+
+		</ul>
+	</div>
+</body>
+</html>
