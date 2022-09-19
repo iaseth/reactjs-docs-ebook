@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="uid">
+
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+		<dc:title>{{ book.preferences["title"] }}</dc:title>
+		<dc:language>en-us</dc:language>
+		<dc:identifier id="uid">0123456789</dc:identifier>
+		<dc:creator>{{ book.preferences["author"] }}</dc:creator>
+		<dc:publisher>{{ book.preferences["publisher"] }}</dc:publisher>
+		<dc:identifier opf:scheme="ISBN">0123456789123</dc:identifier>
+		<dc:date opf:event="publication">2022-01-01</dc:date>
+		<dc:rights>Copyright © {{ book.preferences["author"] }} 2022</dc:rights>
+		<meta name="cover" content="x_cover-image" />
+		<meta name="output encoding" content="utf-8" />
+		<meta name="primary-writing-mode" content="horizontal-lr" />
+	</metadata>
+
+	<manifest>
+		<item id="x_inline_toc" media-type="application/xhtml+xml" href="text/x_inline_toc.html"/>
+		{% for section in book.sections %}
+		<item id="{{ section.getIdref() }}" media-type="application/xhtml+xml" href="{{ section.getLocalHtmlFilepath() }}"/>
+		{% endfor %}
+		{% for page in book.pages %}
+		<item id="{{ page.getIdref() }}" media-type="application/xhtml+xml" href="{{ page.getLocalHtmlFilepath() }}"/>
+		{% endfor %}
+		<item id="ncx" media-type="application/x-dtbncx+xml" href="toc.ncx" />
+	</manifest>
+
+	<spine toc="ncx">
+
+		<itemref idref="x_inline_toc" linear="yes" />
+		{% for section in book.sections %}
+		<itemref idref="{{ section.getIdref() }}" linear="yes" />
+			{% for page in section.posts %}<itemref idref="{{ page.getIdref() }}" linear="yes" />{% endfor %}
+		{% endfor %}
+
+	</spine>
+
+	<tours></tours>
+
+	<guide></guide>
+
+</package>
