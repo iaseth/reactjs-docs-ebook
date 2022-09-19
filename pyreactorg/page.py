@@ -6,11 +6,11 @@ class ReactOrgPage(HtmlBaseclass):
 	def __init__(self, section, jo):
 		self.section = section
 		self.jo = jo
-		self.jo = jo['title']
+		self.title = jo['title']
 		# self.template = self.book.topic_page_template.template
 
 	def getIdref(self):
-		return f"x_page_{self.name}"
+		return f"x_page_{self.index}"
 
 	def __str__(self):
 		return f"ReactOrgPage '{self.title}'"

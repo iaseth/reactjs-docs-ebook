@@ -14,7 +14,7 @@ class ReactOrgSection(HtmlBaseclass):
 		# self.template = self.book.topic_page_template.template
 
 	def getIdref(self):
-		return f"x_section_{self.name}"
+		return f"x_section_{self.index}"
 
 	def __str__(self):
 		return f"ReactOrgSection '{self.title}' [{self.length()} pages]"

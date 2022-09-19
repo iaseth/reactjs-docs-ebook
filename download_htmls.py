@@ -58,7 +58,7 @@ def main():
 			print(f"\t---- [{pidx+1}/{len(pages)}] New page: '{page['title']}':")
 
 			if os.path.isfile(html_path):
-				print(f"\t\t---- already downloaded ({html_path})")
+				print(f"\t\t---- already downloaded ({html_path}) [{get_file_size_string(html_path)}]")
 				continue
 
 			print(f"\t\t---- downloading ({page_url}) ...")
